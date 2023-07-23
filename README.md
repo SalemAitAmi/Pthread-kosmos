@@ -84,4 +84,4 @@ code.)
 - ./kosmos-mcv <seed>  or,
 - ./kosmos-mcv <seed> <num_atoms>
 
-NOTE: For first 'make' or if 'make clean' is invoked, uncomment the 2 'extern' keywords in logging.h, invoke make again, then remove the 'extern' keywords for future makes. This was not a problem in Jhub, but for WSL in VS Code it seems to be an issue. 
+NOTE: For first 'make' or if 'make clean' is invoked, uncomment the 2 'extern' keywords in logging.h, invoke make again, then remove the 'extern' keywords for future makes. This was not a problem in Jhub, but for WSL in VS Code it seems to be an issue. In case it still fails to compile after doing this, I have included the executable as well.
